@@ -1,0 +1,23 @@
+{
+  "name": "cs465-full-stack-development",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJCooper83/CS465-Full-Stack-Development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJCooper83/CS465-Full-Stack-Development/issues"
+  },
+  "homepage": "https://github.com/RJCooper83/CS465-Full-Stack-Development#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
