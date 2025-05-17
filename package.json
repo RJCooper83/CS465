@@ -18,6 +18,7 @@
   "homepage": "https://github.com/RJCooper83/CS465-Full-Stack-Development#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
   }
 }
