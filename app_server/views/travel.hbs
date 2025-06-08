@@ -1,17 +1,20 @@
 <div id="contents">
- <div class="box">
-    <div class="body">
-      <h1>Travel</h1>
-      <ul id="sites">
-        {{#each trips}}
-          <li>
-            <a href="/travel"><img src="{{image}}" alt="Img"></a>
-            <h2><a href="/travel">{{name}}</a></h2>
-            <p>{{description1}}</p>
-            <p>{{description2}}</p>
-          </li>
-        {{/each}}
-      </ul>
+  <div class="box">
+    <div>
+      <div class="body">
+        <h1>Travel</h1>
+        <ul id="sites">
+          {{#each trips}}
+            <li>
+              <a href="/api/trips/{{this.code}}">
+                <img src="/images/{{image}}" alt="{{name}}">
+              </a>
+              <h2><a href="/travel">{{name}}</a></h2>
+              <p>{{{description}}}</p>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
     </div>
   </div>
 </div>
